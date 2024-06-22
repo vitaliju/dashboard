@@ -1,0 +1,36 @@
+.main-header {
+    display: flex;
+    grid-area: header;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.title-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.user-block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+.user-block > .mail {
+
+}
+.user-block > .notifications {
+
+}
+.user-block > .avatar {
+    width: 30px;
+}
+.user-block > .user-name {
+
+}
+.user-block > .angle {
+
+}
