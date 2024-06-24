@@ -3,7 +3,8 @@
     grid-area: header;
     justify-content: space-between;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-left: 15px;
 
 }
 .title-list {
@@ -16,21 +17,44 @@
 .user-block {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
     margin-right: 20px;
 }
 .user-block > .mail {
-
+    font-size: 20px;
+    color: black;
+}
+.user-block>.mail:hover {
+    background-color: white;
+    color: #6F62AE;
+    cursor: pointer;
 }
 .user-block > .notifications {
-
+    font-size: 20px;
+    color: black;
+}
+.user-block>.notifications:hover {
+    background-color: white;
+    color: #6F62AE;
+    cursor: pointer;
 }
 .user-block > .avatar {
-    width: 30px;
+    width: 35px;
+   
 }
 .user-block > .user-name {
+    font-size: large;
+    color: black;
+    position: relative;
 
 }
 .user-block > .angle {
-
+    color: black;
+    position: absolute;
+    right: 3px;
+}
+.user-block>.angle:hover {
+    background-color: white;
+    color: #6F62AE;
+    cursor: pointer;
 }
