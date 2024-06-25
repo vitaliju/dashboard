@@ -1,0 +1,99 @@
+:root {
+}
+
+.block .overview {
+    display: flex;
+    gap: 30px;
+}
+.overview .title {
+    margin-top: -50px;
+    color: #9A9A9A;
+    font-size: 17px;
+}
+.overview-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+.overview-list .yellow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 10px 90px 10px 10px;
+    border-radius: 10px;
+    background-color: #F1CB5C;
+    gap: 10px;
+    margin-left: -100px;
+}
+.yellow .icon1 {
+    width: 90px;
+    height: 90px;
+    margin: -0px;
+}
+.rate .number {
+    color: white;
+}
+.overview-list .violet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 10px 90px 10px 10px;
+    border-radius: 10px;
+    background-color: #4F3E9C;
+    gap: 10px;
+    margin-left: -100px;
+}
+
+.violet .icon2 {
+    width: 90px;
+    height: 90px;
+    margin: -0px;
+}
+
+.rate .number {
+    color: white;
+}
+.overview-list .pink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 10px 90px 10px 10px;
+    border-radius: 10px;
+    background-color: #EC6397;
+    gap: 10px;
+    margin-left: -100px;
+}
+
+.pink .icon3 {
+    width: 90px;
+    height: 90px;
+    margin: -0px;
+}
+
+.rate .number {
+    color: white;
+}
+.overview-list .lightviolet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 10px 90px 10px 10px;
+    border-radius: 10px;
+    background-color: #CDC0EB;
+    gap: 10px;
+    margin-left: -100px;
+}
+
+.lightviolet .icon4 {
+    width: 90px;
+    height: 90px;
+    margin: -0px;
+}
+
+.rate .number {
+    color: white;
+}

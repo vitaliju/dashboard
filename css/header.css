@@ -3,8 +3,8 @@
     grid-area: header;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: 5px;
+    margin-left: 6px;
 
 }
 .title-list {
@@ -17,7 +17,7 @@
 .user-block {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     margin-right: 20px;
 }
 .user-block > .mail {
@@ -43,6 +43,7 @@
    
 }
 .user-block > .user-name {
+    display: flex;
     font-size: large;
     color: black;
     position: relative;
@@ -51,7 +52,7 @@
 .user-block > .angle {
     color: black;
     position: absolute;
-    right: 3px;
+    right: 30px;
 }
 .user-block>.angle:hover {
     background-color: white;

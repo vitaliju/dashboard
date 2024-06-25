@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/aside.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/overview.css">
+    <link rel="stylesheet" href="./css/next-fashion.css">
+    <link rel="stylesheet" href="./css/marketing.css">
 </head>
 <body>
     <aside>
         <img class="logo" src="./img/logo.png" alt="">
-        <form class="form">
+        <div class="form">
             <a class="pitch" href="#">Create <br>New Pitch</a>
-            <i class="fa fa-plus-circle"></i>
-        </form>
+            <div class="circle">+</div>
+        </div>
         <nav class="main-nav">
             <div class="nav-list">
                 <a class="link" href="#">Dashboard</a>
@@ -52,20 +55,59 @@
             <img class="alyssa" src="./img/alyssa.png" alt="">
         </section>
         <section class="block overview">
-            <a class="link" href="#">Overview</a>
-            <div class="yellow">
-                <img class="icon" src="./img/line-chart.png" alt="">
-                <div class="rate">
-                    <h3 class="number">83%</h3>
-                    <p class="text">Open Rate</p>
+            <p class="title">Overview</p>
+            <div class="overview-list">
+                <div class="yellow">
+                    <img class="icon1" src="./img/line-chart.png" alt="">
+                    <div class="rate">
+                        <p class="number"><span style="font-weight: bolder; font-size: 20px;">83%</span> <br><span style="font-size: 10px;">Open
+                            Rate</span></p>
+                    </div>
+                </div>
+                <div class="violet">
+                    <img class="icon2" src="./img/check.png" alt="">
+                    <div class="rate">
+                        <p class="number"><span style="font-weight: bolder; font-size: 20px;">77%</span> <br><span
+                                style="font-size: 10px;">Complete</span></p>
+                    </div>
+                </div>
+                <div class="pink">
+                    <img class="icon3" src="./img/star.png" alt="">
+                    <div class="rate">
+                        <p class="number"><span style="font-weight: bolder; font-size: 20px;">91</span> <br><span style="font-size: 10px;">Unique
+                                Views</span></p>
+                    </div>
+                </div>
+                <div class="lightviolet">
+                    <img class="icon4" src="./img/eye.png" alt="">
+                    <div class="rate">
+                        <p class="number"><span style="font-weight: bolder; font-size: 20px;">126</span> <br><span style="font-size: 10px;">Total
+                                Views</span></p>
+                    </div>
                 </div>
             </div>
-            <div class="violet">2</div>
-            <div class="pink">3</div>
-            <div class="lightviolet">4</div>
         </section>
-        <section class="block next-fashion"></section>
-        <section class="blosk digital-marketing"></section>
+        <section class="block next-fashion">
+            <div>
+                <img class="photo1" src="./img/photo1.jpg" alt="">
+            </div>
+            <div class="title">
+                <h5 class="title-text">Next in Fashion</h5>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolore, <br>aliquam expedita repudiandae dolores dolorem.</p>
+                <h5 class="result">10 Slides</h5>
+            </div>
+            <div class="publish">
+                <h6 class="pulish-text">Public</h6>
+                <button class="btn">
+                    <div class="public"></div>
+                </button>
+            </div>
+            <div class="fa">
+                <i class="fa fa-pencil pencil" aria-hidden="true"></i>
+                <i class="fa fa-trash-o trash" aria-hidden="true"></i>
+            </div>
+        </section>
+        <section class="block digital-marketing"></section>
     </main>
 </body>
 </html>

@@ -11,7 +11,7 @@ main {
     align-items: start;
     align-content: start;
     padding: 20px 30px;
-    gap: 30px;
+    gap: 20px;
 }
 .hi-user {
     grid-area: hi;
@@ -25,7 +25,11 @@ main {
 .digital-marketing {
     grid-area: digital;
 }
-
+.block {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
 .hi-user {
     display: flex;
     justify-content: space-between;
@@ -42,57 +46,4 @@ main {
     position: absolute;
     right: 20px;
     bottom:  -11px;
-}
-.overview {
-    display: flex;
-    width: 100%;
-    
-    
-    background-color: #CDC0EB;
-    
-}
-.overview .link {
-    align-self: baseline;
-    justify-self:start;
-    text-decoration: none;
-    color: #A2A2A2;
-}
-.overview .yellow {
-    display: flex;
-    flex-direction: row;
-    background-color: #F1CB5C;
-    justify-content:space-between;
-    align-items: center;
-    padding: 0px 10px;
-    height: 80px;
-    border-radius: 10px;
-}
-.overview .yellow .icon {
-   width: 40px;
-   height: 40px;
-   background-color: #F5D679;
-   border-radius: 20%;
-}
-.yellow .rate {
-    padding: 10px;
-}
-.yellow .rate .number {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-
-}
-.yellow .rate .text {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 10px;
-    color: white;
-    margin-bottom: 20px;
-}
-.overview .violet {
-    background-color: #4F3E9C;
-}
-.overview .pink {
-    background-color: #EC6397;
-}
-.overview .lightviolet {
-    background-color: #CDC0EB;
 }
