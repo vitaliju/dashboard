@@ -91,16 +91,14 @@ aside .upgrade-group {
     background-color: #F8F7FD;
     margin-left: 60px;
     margin-top: 80px;
-    height: 220%;
+    height: 150px;
     width: 160px;
-    position: relative;
     padding: 10px 0;
     
 }
 .upgrade-group .img {
     width: 100px;
-    position: absolute;
-    bottom: 80px;
+    margin-top: -70px;
 }
 aside .upgrade-text {
     text-align: center;
@@ -113,14 +111,9 @@ aside .upgradeBtn {
     padding: 5px 7px;
     border: 1px solid #6F63AF;
     border-radius: 5px;
-    
-
-    
-
 }
 aside .upgradeBtn:hover {
     background-color: white;
     color: #6F63AF;
     cursor: pointer;
-
 }
