@@ -11,7 +11,7 @@ main {
     align-items: start;
     align-content: start;
     padding: 20px 30px;
-    gap: 20px;
+    gap: 10px;
 }
 .hi-user {
     grid-area: hi;
@@ -29,16 +29,17 @@ main {
     display: grid;
     grid-template-columns: auto auto;
     gap: 20px;
+    margin-bottom: 60px;
 }
 .hi-user {
     display: flex;
     justify-content: space-between;
     align-items: centers;
     background-color: #E6DAFE;
-    padding: 10px 20px;
+    padding: 20px 20px;
     position: relative;
     border-radius: 10px;
-    margin-bottom: 100px;
+    margin-top:  30px;
 }
 .alyssa {
     width: 220px;
