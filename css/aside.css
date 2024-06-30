@@ -3,7 +3,7 @@
 }
 body {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 18.7rem 1fr;
     margin: 0;
     background-color: white;
     min-height: 100vh;
@@ -12,61 +12,60 @@ body {
 aside {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 40px;
+    gap: 2.5rem;
+    padding: 2.5rem;
     padding-left: 0px;
     background-color: beige;
 }
 aside .logo {
-    margin-left: 20px;
-    margin-bottom: 1px;
-    width: 200px;
+    margin-left: 1.2rem;
+    width: 12.5rem;
 }
 aside .form {
     display: flex;
     position: relative;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 0.6rem;
 }
 aside .form > a {
     display: flex;
-    margin-left: 30px; 
-    line-height: 20px;
-    font-size: 20px;
-    width: 200px;
-    height: 60px;
+    margin-left: 1.9rem; 
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+    width: 12.5rem;
+    height: 3.75rem;
     border: none;
-    padding: 5px 15px 5px 20px ;
+    padding: 0.3rem 1rem 0.3rem 1.2rem ;
     background-color: #F7F8FD;
     text-decoration: none;
     color: black;
-    border-radius: 15px;
+    border-radius: 1rem;
 }
 aside .form > .circle {
     content: '';
     display: block;
-    line-height: 43px;
-    font-size: 50px;
+    line-height: 2.7rem;
+    font-size: 3rem;
     background-color: #6F62AE;
     color: #F8F7FD;
-    width: 43px;
-    height: 43px;
+    width: 2.7rem;
+    height: 2.7rem;
     text-align: center;
     position: absolute;
-    right: 50px;
-    font-size: 33px;
+    right: 3rem;
+    font-size: 2rem;
     border-radius: 50%;
-    box-shadow: 0px 10px 18px 0px #DFDFE3;
+    box-shadow: 0rem 0.6rem 1.1rem 0rem #DFDFE3;
 }
 aside .circle:hover {
-    background-color: white;
+    background-color: #E6DAFE;
     color: #6F62AE;
     cursor: pointer;
 }
 aside .main-nav {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.6rem;
 }
 aside .nav-list {
     display: flex;
@@ -75,8 +74,8 @@ aside .nav-list {
 }
 aside .link {
     
-    padding: 20px 0px;
-    font-size: 20px;
+    padding: 1.2rem 0rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: black;
 }
@@ -89,28 +88,28 @@ aside .upgrade-group {
     align-items: center;
     justify-content: center;
     background-color: #F8F7FD;
-    margin-left: 60px;
-    margin-top: 80px;
-    height: 150px;
-    width: 160px;
-    padding: 10px 0;
+    margin-left: 3.75rem;
+    margin-top: 5rem;
+    height: 9.35rem;
+    width: 10rem;
+    padding: 0.6rem 0;
     
 }
 .upgrade-group .img {
-    width: 100px;
-    margin-top: -70px;
+    width: 6.2rem;
+    margin-top: -4.37rem;
 }
 aside .upgrade-text {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #DAD8E3;
 }
 aside .upgradeBtn {
     background-color: #6F63AF;
     color: white;
-    padding: 5px 7px;
+    padding: 0.3rem 0.4rem;
     border: 1px solid #6F63AF;
-    border-radius: 5px;
+    border-radius: 0.3rem;
 }
 aside .upgradeBtn:hover {
     background-color: white;

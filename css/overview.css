@@ -1,35 +1,33 @@
 :root {
 }
-
 .block .overview {
     display: flex;
-    gap: 10px;
+    gap: 0.6rem;
 }
 .overview .title {
-    margin-top: -35px;
+    margin-top: -2.1rem;
     color: #9A9A9A;
-    font-size: 17px;
+    font-size: 1rem;
 }
 .overview-list {
     display: flex;
     justify-content: space-between;
-    gap: 120px;
+    gap: 7.5rem;
 }
 .overview-list .yellow {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 90px;
-    padding: 10px 90px 10px 10px;
-    border-radius: 10px;
+    height: 5.3rem;
+    padding: 0rem 6rem 0rem 1.6rem;
+    border-radius: 0.6rem;
     background-color: #F1CB5C;
-    gap: 10px;
-    margin-left: -100px;
+    gap: 1.3rem;
+    margin-left: -6.2rem;
 }
 .yellow .icon1 {
-    width: 90px;
-    height: 90px;
-    margin: -0px;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 .rate .number {
     color: white;
@@ -38,20 +36,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 90px;
-    padding: 10px 90px 10px 10px;
-    border-radius: 10px;
+    height: 5.3rem;
+    padding: 0rem 6rem 0rem 1.6rem;
+    border-radius: 0.6rem;
     background-color: #4F3E9C;
-    gap: 10px;
-    margin-left: -100px;
+    gap: 1.3rem;
+    margin-left: -6.2rem;
 }
-
 .violet .icon2 {
-    width: 90px;
-    height: 90px;
-    margin: -0px;
+    width: 3.5rem;
+    height: 3.5rem;
 }
-
 .rate .number {
     color: white;
 }
@@ -59,20 +54,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 90px;
-    padding: 10px 90px 10px 10px;
-    border-radius: 10px;
+    height: 5.3rem;
+    padding: 0rem 6rem 0rem 1.6rem;
+    border-radius: 0.6rem;
     background-color: #EC6397;
-    gap: 10px;
-    margin-left: -100px;
+    gap: 1.3rem;
+    margin-left: -6.2rem;
 }
-
 .pink .icon3 {
-    width: 90px;
-    height: 90px;
-    margin: -0px;
+    width: 3.5rem;
+    height: 3.5rem;
 }
-
 .rate .number {
     color: white;
 }
@@ -80,20 +72,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 90px;
-    padding: 10px 90px 10px 10px;
-    border-radius: 10px;
+    height: 5.3rem;
+    padding: 0rem 6rem 0rem 1.6rem;
+    border-radius: 0.6rem;
     background-color: #CDC0EB;
-    gap: 10px;
-    margin-left: -100px;
+    gap: 1.3rem;
+    margin-left: -6.2rem;
 }
 
 .lightviolet .icon4 {
-    width: 90px;
-    height: 90px;
-    margin: -0px;
+    width: 3.5rem;
+    height: 3.5rem;
 }
-
 .rate .number {
     color: white;
 }
