@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are wellcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://vitaliju.github.io/portfolio-dashboard/
+Site published at: https://vitaliju.github.io/dashboard/
 
 Design: [Dashboard](https://dribbble.com/shots/11101900-Pitch-Dashboard/attachments/2701195?mode=media)
 
@@ -50,7 +50,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 1. Clone the repo
 
 ```sh
-git clone https://github.com/vitaliju/portfolio-dashboard.git
+git clone https://github.com/vitaliju/dashboard.git
 ```
 
 2. Install nPM packages
