@@ -1,89 +1,46 @@
 :root {
 }
 .block .overview {
-    display: flex;
-    gap: 0.6rem;
+  display: flex;
+  gap: 0.6rem;
 }
 .overview .title {
-    margin-top: -2.1rem;
-    color: #9A9A9A;
-    font-size: 1rem;
+  margin-top: -2.1rem;
+  color: #9a9a9a;
+  font-size: 1rem;
+}
+.flexForOverview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5.3rem;
+  padding: 0rem 6rem 0rem 1.6rem;
+  border-radius: 0.6rem;
+  gap: 1.3rem;
+  margin-left: -6.2rem;
 }
 .overview-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 7.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 1.2rem;
+  margin-left: 5rem;
 }
 .overview-list .yellow {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 5.3rem;
-    padding: 0rem 6rem 0rem 1.6rem;
-    border-radius: 0.6rem;
-    background-color: #F1CB5C;
-    gap: 1.3rem;
-    margin-left: -6.2rem;
-}
-.yellow .icon1 {
-    width: 3.5rem;
-    height: 3.5rem;
-}
-.rate .number {
-    color: white;
+  background-color: #f1cb5c;
 }
 .overview-list .violet {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 5.3rem;
-    padding: 0rem 6rem 0rem 1.6rem;
-    border-radius: 0.6rem;
-    background-color: #4F3E9C;
-    gap: 1.3rem;
-    margin-left: -6.2rem;
-}
-.violet .icon2 {
-    width: 3.5rem;
-    height: 3.5rem;
-}
-.rate .number {
-    color: white;
+  background-color: #4f3e9c;
 }
 .overview-list .pink {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 5.3rem;
-    padding: 0rem 6rem 0rem 1.6rem;
-    border-radius: 0.6rem;
-    background-color: #EC6397;
-    gap: 1.3rem;
-    margin-left: -6.2rem;
-}
-.pink .icon3 {
-    width: 3.5rem;
-    height: 3.5rem;
-}
-.rate .number {
-    color: white;
+  background-color: #ec6397;
 }
 .overview-list .lightviolet {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 5.3rem;
-    padding: 0rem 6rem 0rem 1.6rem;
-    border-radius: 0.6rem;
-    background-color: #CDC0EB;
-    gap: 1.3rem;
-    margin-left: -6.2rem;
+  background-color: #cdc0eb;
 }
-
-.lightviolet .icon4 {
-    width: 3.5rem;
-    height: 3.5rem;
+.icon {
+  width: 3.5rem;
+  height: 3.5rem;
 }
-.rate .number {
-    color: white;
+.number {
+  color: white;
 }
