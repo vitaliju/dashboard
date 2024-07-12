@@ -49,97 +49,45 @@ main {
 }
 
 @media (max-width: 1100px) {
-  main,
-  haeder {
+  body {
     width: 800px;
     margin-left: calc(50% - 400px);
   }
-  .block {
-    flex-direction: column;
-    width: 700px;
-    margin-left: calc(50% - 350px);
-  }
-  .alyssa {
-    width: 14rem;
-    height: 11rem;
-  }
 }
 @media (max-width: 950px) {
-  main,
-  header {
+  body {
     width: 650px;
     margin-left: calc(50% - 325px);
   }
-  aside {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
-  .block {
-    width: 400px;
-    margin-left: calc(50% - 200px);
-  }
-  .alyssa {
-    width: 10rem;
-    height: 9rem;
-  }
 }
 @media (max-width: 850px) {
-  main,
+  body,
   header {
     width: 550px;
     flex-direction: column;
     margin-left: calc(50% - 275px);
   }
-  aside {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .block {
-    width: 300px;
-    margin-left: calc(50% - 150px);
-  }
-  .alyssa {
-    width: 10rem;
-    height: 7rem;
-  }
 }
 @media (max-width: 750px) {
-  main,
+  body,
   header,
-  .digital-marketing,
-  .next-fashion {
+  aside {
+    display: flex;
+    flex-direction: column;
     width: 450px;
     margin-left: calc(50% - 225px);
   }
-  aside {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .block {
+}
+@media (max-width: 460px) {
+  body,
+  header,
+  main {
     width: 100px;
     margin-left: calc(50% - 50px);
   }
-  .alyssa {
-    width: 10rem;
-    height: 7rem;
-  }
-}
-@media (max-width: 550px) {
-  main,
-  header,
-  .digital-marketing,
-  .next-fashion {
-    width: 300px;
-    margin-left: calc(50% - 150px);
-  }
   aside {
+    width: 100%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    width: 200px;
-  }
-  .alyssa {
-    width: 8rem;
-    height: 5rem;
   }
 }
