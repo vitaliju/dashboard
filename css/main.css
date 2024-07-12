@@ -54,6 +54,11 @@ main {
     width: 800px;
     margin-left: calc(50% - 400px);
   }
+  .block {
+    flex-direction: column;
+    width: 700px;
+    margin-left: calc(50% - 350px);
+  }
   .alyssa {
     width: 14rem;
     height: 11rem;
@@ -68,6 +73,11 @@ main {
   aside {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+
+  .block {
+    width: 400px;
+    margin-left: calc(50% - 200px);
   }
   .alyssa {
     width: 10rem;
@@ -85,6 +95,10 @@ main {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+  .block {
+    width: 300px;
+    margin-left: calc(50% - 150px);
+  }
   .alyssa {
     width: 10rem;
     height: 7rem;
@@ -92,29 +106,37 @@ main {
 }
 @media (max-width: 750px) {
   main,
-  header {
+  header,
+  .digital-marketing,
+  .next-fashion {
     width: 450px;
-    flex-direction: column;
     margin-left: calc(50% - 225px);
   }
   aside {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+  .block {
+    width: 100px;
+    margin-left: calc(50% - 50px);
+  }
   .alyssa {
     width: 10rem;
     height: 7rem;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 550px) {
   main,
-  header {
-    width: 100%;
-    margin-left: 0;
+  header,
+  .digital-marketing,
+  .next-fashion {
+    width: 300px;
+    margin-left: calc(50% - 150px);
   }
   aside {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    width: 200px;
   }
   .alyssa {
     width: 8rem;
